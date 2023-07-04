@@ -20,7 +20,7 @@ const useGetDocumentTitlePrice = () => {
         })}`
 
   useEffect(() => {
-    document.title = `Cryto Exchange${cakePriceUsdString}`
+    document.title = `Nexi Exchange${cakePriceUsdString}`
   }, [cakePriceUsdString])
 }
 export default useGetDocumentTitlePrice
