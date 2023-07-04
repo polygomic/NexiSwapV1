@@ -1,0 +1,71 @@
+{
+  "name": "NexiSwap Default List",
+  "timestamp": "2021-03-17T09:56:23Z",
+  "version": {
+    "major": 2,
+    "minor": 10,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://exchange.pancakeswap.finance/images/pancakeswap.png",
+  "keywords": ["NexiSwap", "default"],
+  "tokens": [
+    {
+      "name": "CashUSD",
+      "symbol": "CHUSD",
+      "address": "0xd5Ba76Dc75a06FBB972aE885cf933357D9CB00BB",
+      "chainId":4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0x492ffa18b9D3830Ebc5D59D5855219C591756234.png"
+    },
+    {
+      "name": "AIGAME",
+      "symbol": "AIG",
+      "address": "0x9032ba5aa0d59888E582E8aa5893b53b07DEceC1",
+      "chainId":4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0xbAAeB48E51d2B8cd75914FA0d4B3cf6f06Ca9a5b.png"
+    },
+    {
+      "name": "COGNITO",
+      "symbol": "COG",
+      "address": "0x1F1FdCf76847E8e9C00048a33dFf1246912a7Fc2",
+      "chainId":4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0xc9DBB5EC38BbB50dAca275e54CB9659d46634b5e.png"
+    },
+    {
+      "name": "Metaverse",
+      "symbol": "META+",
+      "address": "0x8807204AaD2F54088819e788Bb8A23D22B60DBc8",
+      "chainId": 4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0x8807204AaD2F54088819e788Bb8A23D22B60DBc8.png"
+    },
+    {
+      "name": "ELEGANCE",
+      "symbol": "ELG",
+      "address": "0xEA52c1F8Ef64c3BfCc043e01081618b5A7159bD1",
+      "chainId": 4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0xd145e7364Bdc8055adC21891ed605365eda4e871.png"
+    },
+    {
+      "name": "MetaVerseLand",
+      "symbol": "VLAND",
+      "address": "0xdF397Aeee4950Aafb7DaD6345747337B510B4951",
+      "chainId": 4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0xd145e7364Bdc8055adC21891ed605365eda4e871.png"
+    }
+    ,
+    {
+      "name": "NFTPRO",
+      "symbol": "NFTPRO",
+      "address": "0x48FDd05F8C5e9F46A6860dDc13337948141ea268",
+      "chainId": 4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0xd145e7364Bdc8055adC21891ed605365eda4e871.png"
+    }
+  ]
+}

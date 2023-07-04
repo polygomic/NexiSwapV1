@@ -1,0 +1,10 @@
+[build]
+  ignore = "exit 1"
+  base = "pancake-swap-interface-v1"
+  publish = "build"
+  command = ""
+
+[build.environment]
+  REACT_APP_CHAIN_ID = "424"
+  REACT_APP_NETWORK_URL = "https://chain.cryto.technology"
+  
