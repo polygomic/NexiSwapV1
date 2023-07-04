@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@nexiswap/sdk'
 
-export const ROUTER_ADDRESS = '0x2A1BA48b0707433C8e0754dB0C2ff2542A91E37D'
+export const ROUTER_ADDRESS = '0x4A79de69D92708C71fF51A862F7A72DD85d15491'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -8,7 +8,7 @@ type ChainTokenList = {
 }
 
 export const CRYTOSW = new Token(ChainId.MAINNET, '0xbAAeB48E51d2B8cd75914FA0d4B3cf6f06Ca9a5b', 18, 'CRYTOSW', 'CrytoSwap Token')
-export const WNEXI = new Token(ChainId.MAINNET, '0x1f22B66Dd127eAC499A40A774c934e123cF31F40', 18, 'WNEXI', 'Wrapped NEXI')
+export const WNEXI = new Token(ChainId.MAINNET, '0xdB4B34cD613fe929019a3296B10171482ce0df60', 18, 'WNEXI', 'Wrapped NEXI')
 export const CRUSD = new Token(ChainId.MAINNET, '0x492ffa18b9D3830Ebc5D59D5855219C591756234', 18, 'CRUSD', 'Cryto USD')
 export const BUSD = new Token(ChainId.MAINNET, '0xE0dFffc2E01A7f051069649aD4eb3F518430B6a4', 18, 'BUSD', 'Binance USD')
 export const USDT = new Token(ChainId.MAINNET, '0x7afd064DaE94d73ee37d19ff2D264f5A2903bBB0', 18, 'USDT', 'Tether USD')
