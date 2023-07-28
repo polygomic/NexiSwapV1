@@ -14,7 +14,7 @@
       "name": "CashUSD",
       "symbol": "CHUSD",
       "address": "0x30199Be78D0A2A885b3E03f7D5B08DE2ad251648",
-      "chainId":4242,
+      "chainId":4243,
       "decimals": 18,
       "logoURI": "/images/coins/0x30199Be78D0A2A885b3E03f7D5B08DE2ad251648.png"
     },
@@ -22,7 +22,7 @@
       "name": "AIGAME",
       "symbol": "AIG",
       "address": "0x4490FC701AeCF3ef8966B41E322E843AA4479De1",
-      "chainId":4242,
+      "chainId":4243,
       "decimals": 18,
       "logoURI": "/images/coins/0x4490FC701AeCF3ef8966B41E322E843AA4479De1.png"
     },
@@ -30,7 +30,7 @@
       "name": "COGNITO",
       "symbol": "COG",
       "address": "0xb0E37b5DE9195A753be77745712fd08fF298d50f",
-      "chainId":4242,
+      "chainId":4243,
       "decimals": 18,
       "logoURI": "/images/coins/0xb0E37b5DE9195A753be77745712fd08fF298d50f.png"
     },
@@ -38,7 +38,7 @@
       "name": "SUSTAIN",
       "symbol": "SUST",
       "address": "0x040a129440e4d98fABaD86C8A5D291693636c850",
-      "chainId": 4242,
+      "chainId": 4243,
       "decimals": 18,
       "logoURI": "/images/coins/0x040a129440e4d98fABaD86C8A5D291693636c850.png"
     },
@@ -46,7 +46,7 @@
       "name": "ELEGANCE",
       "symbol": "ELG",
       "address": "0x02435aF72C7362607Ad9119e3DB5023ac82C8858",
-      "chainId": 4242,
+      "chainId": 4243,
       "decimals": 18,
       "logoURI": "/images/coins/0x02435aF72C7362607Ad9119e3DB5023ac82C8858.png"
     },
@@ -54,7 +54,7 @@
       "name": "MetaVerseLand",
       "symbol": "VLAND",
       "address": "0x89B50490f00a455760Cf93317ab0aED24c127066",
-      "chainId": 4242,
+      "chainId": 4243,
       "decimals": 18,
       "logoURI": "/images/coins/0x89B50490f00a455760Cf93317ab0aED24c127066.png"
     }
@@ -63,7 +63,7 @@
       "name": "NFTPRO",
       "symbol": "NFTPRO",
       "address": "0xD4d407Ab02Fb0C3D0dED6f325f39C498a2ee82C6",
-      "chainId": 4242,
+      "chainId": 4243,
       "decimals": 18,
       "logoURI": "/images/coins/0xD4d407Ab02Fb0C3D0dED6f325f39C498a2ee82C6.png"
     }
