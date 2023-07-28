@@ -2,8 +2,8 @@ import { ChainId } from '@nexiswap/sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
-  [ChainId.MAINNET]: '0xbAA780BcD8bFefB45A10d32424Bd11F2F57644Db', // TODO
-  [ChainId.TESTNET]: '0xbAA780BcD8bFefB45A10d32424Bd11F2F57644Db'
+  [ChainId.MAINNET]: '0x90F420222b60716D36f591eE0822663c49A6d7Ad', // TODO
+  [ChainId.TESTNET]: '0x90F420222b60716D36f591eE0822663c49A6d7Ad'
 }
 
 export { MULTICALL_ABI, MULTICALL_NETWORKS }
