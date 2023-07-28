@@ -261,7 +261,7 @@ library NexiSwapLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'650b550b782002b41b4fcfc7f08507352516efcd37c7a307995676f951d66a15' // init code hash
+                hex'99bfc55dd47e477ab395e7174c49d4ff704e32388013bfe5bacc745affdf7488' // init code hash
             ))));
     }
 
