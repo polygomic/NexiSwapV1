@@ -1,12 +1,12 @@
 import { useEffect } from 'react'
 import useGetPriceData from './useGetPriceData'
-import { CRYTOSW } from '../constants'
+import { ORBITEX } from '../constants'
 
 const useGetDocumentTitlePrice = () => {
   const priceData = useGetPriceData();
   let cakePriceUsd = 0;
   try {
-    cakePriceUsd = priceData ? parseFloat(priceData.data[CRYTOSW.address].price ?? 0) : 0
+    cakePriceUsd = priceData ? parseFloat(priceData.data[ORBITEX.address].price ?? 0) : 0
   } catch (e) {
     // Ignore
   }
