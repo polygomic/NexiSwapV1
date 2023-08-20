@@ -1,18 +1,16 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@nexiswap/sdk'
 
-export const ROUTER_ADDRESS = '0x822F387028C260EC0852916c0987Cc0d4F2186FA'
+export const ROUTER_ADDRESS = '0xFdA21D9F78E193C45ee410d67300B4353eF6cF10'
 
 // a list of tokens by chain
 type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const CRYTOSW = new Token(ChainId.MAINNET, '0xbAAeB48E51d2B8cd75914FA0d4B3cf6f06Ca9a5b', 18, 'CRYTOSW', 'CrytoSwap Token')
-export const WNEXI = new Token(ChainId.MAINNET, '0xfB000De07a23Bd3670e94e5F02A5a293424B98B6', 18, 'WNEXI', 'Wrapped NEXI')
-export const CRUSD = new Token(ChainId.MAINNET, '0x492ffa18b9D3830Ebc5D59D5855219C591756234', 18, 'CRUSD', 'Cryto USD')
-export const BUSD = new Token(ChainId.MAINNET, '0xE0dFffc2E01A7f051069649aD4eb3F518430B6a4', 18, 'BUSD', 'Binance USD')
-export const USDT = new Token(ChainId.MAINNET, '0x7afd064DaE94d73ee37d19ff2D264f5A2903bBB0', 18, 'USDT', 'Tether USD')
-export const ETH = new Token(ChainId.MAINNET, '0xE282a15DBad45e3131620C1b8AF85B7330Cb3b4B', 18, 'ETH', 'Binance-Peg Ethereum Token')
+export const CASHUSD = new Token(ChainId.MAINNET, '0x30199Be78D0A2A885b3E03f7D5B08DE2ad251648', 18, 'CASHUSD', 'Cash USD')
+export const WNEXI = new Token(ChainId.MAINNET, '0xEC3ceC066E5b2331fCD0Eb7eE5A9B17F617A6efb', 18, 'WNEXI', 'Wrapped NEXI')
+export const ORBITEX = new Token(ChainId.MAINNET, '0x613d19fd91A62513e16Ecc1c0A4bFb16480bd2Bb', 18, 'ORBITEX', 'Orbitex')
+export const USDT = new Token(ChainId.MAINNET, '0x69F6c3e18028012Fbad46A9e940889daF6b4241D', 18, 'USDT', 'Tether USD')
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
@@ -22,7 +20,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CRUSD, BUSD, USDT, ETH],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CASHUSD, WNEXI, USDT, ORBITEX],
 }
 
 /**
@@ -36,20 +34,23 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CRUSD, BUSD, USDT],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CASHUSD, WNEXI, USDT,ORBITEX],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CRUSD, BUSD, USDT],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], CASHUSD, WNEXI, USDT,ORBITEX],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
-    [CRYTOSW, WNEXI],
-    [CRYTOSW, CRUSD],
-    [WNEXI, CRUSD],
+    [CASHUSD, WNEXI],
+    [CASHUSD, USDT],
+    [WNEXI, USDT],
+    [ORBITEX, USDT],
+    [ORBITEX, CASHUSD],
+    [ORBITEX, WNEXI],
   ],
 }
 

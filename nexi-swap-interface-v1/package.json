@@ -7,7 +7,7 @@
   "dependencies": {
     "@binance-chain/bsc-connector": "^1.0.0",
     "@crowdin/crowdin-api-client": "^1.8.16",
-    "@nexiswap/sdk": "1.0.5",
+    "@nexiswap/sdk": "1.0.6",
     "@ethersproject/experimental": "^5.0.1",
     "@crytoswap-libs/uikit": "1.1.20",
     "@popperjs/core": "^2.4.4",

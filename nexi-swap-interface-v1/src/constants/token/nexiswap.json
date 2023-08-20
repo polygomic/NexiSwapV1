@@ -12,60 +12,67 @@
   "tokens": [
     {
       "name": "CashUSD",
-      "symbol": "CHUSD",
-      "address": "0x30276EE9e302564Cf2aE525524AE9e3D469c7839",
-      "chainId":4243,
+      "symbol": "CASHUSD",
+      "address": "0x30199Be78D0A2A885b3E03f7D5B08DE2ad251648",
+      "chainId":4242,
       "decimals": 18,
-      "logoURI": "/images/coins/0x30276EE9e302564Cf2aE525524AE9e3D469c7839.png"
+      "logoURI": "/images/coins/0x30199Be78D0A2A885b3E03f7D5B08DE2ad251648.png"
     },
     {
       "name": "AIGAME",
       "symbol": "AIG",
-      "address": "0x4490FC701AeCF3ef8966B41E322E843AA4479De1",
-      "chainId":4243,
+      "address": "0x9032ba5aa0d59888E582E8aa5893b53b07DEceC1",
+      "chainId":4242,
       "decimals": 18,
-      "logoURI": "/images/coins/0x4490FC701AeCF3ef8966B41E322E843AA4479De1.png"
+      "logoURI": "/images/coins/0x9032ba5aa0d59888E582E8aa5893b53b07DEceC1.png"
     },
     {
       "name": "COGNITO",
       "symbol": "COG",
-      "address": "0xb0E37b5DE9195A753be77745712fd08fF298d50f",
-      "chainId":4243,
+      "address": "0x1F1FdCf76847E8e9C00048a33dFf1246912a7Fc2",
+      "chainId":4242,
       "decimals": 18,
-      "logoURI": "/images/coins/0xb0E37b5DE9195A753be77745712fd08fF298d50f.png"
-    },
-    {
-      "name": "SUSTAIN",
-      "symbol": "SUST",
-      "address": "0x040a129440e4d98fABaD86C8A5D291693636c850",
-      "chainId": 4243,
-      "decimals": 18,
-      "logoURI": "/images/coins/0x040a129440e4d98fABaD86C8A5D291693636c850.png"
+      "logoURI": "/images/coins/0x1F1FdCf76847E8e9C00048a33dFf1246912a7Fc2.png"
     },
     {
       "name": "ELEGANCE",
       "symbol": "ELG",
-      "address": "0x02435aF72C7362607Ad9119e3DB5023ac82C8858",
-      "chainId": 4243,
+      "address": "0xEA52c1F8Ef64c3BfCc043e01081618b5A7159bD1",
+      "chainId": 4242,
       "decimals": 18,
-      "logoURI": "/images/coins/0x02435aF72C7362607Ad9119e3DB5023ac82C8858.png"
+      "logoURI": "/images/coins/0xEA52c1F8Ef64c3BfCc043e01081618b5A7159bD1.png"
     },
     {
       "name": "MetaVerseLand",
       "symbol": "VLAND",
-      "address": "0x89B50490f00a455760Cf93317ab0aED24c127066",
-      "chainId": 4243,
+      "address": "0xdF397Aeee4950Aafb7DaD6345747337B510B4951",
+      "chainId": 4242,
       "decimals": 18,
-      "logoURI": "/images/coins/0x89B50490f00a455760Cf93317ab0aED24c127066.png"
-    }
-    ,
+      "logoURI": "/images/coins/0xdF397Aeee4950Aafb7DaD6345747337B510B4951.png"
+    },
     {
       "name": "NFTPRO",
       "symbol": "NFTPRO",
-      "address": "0xD4d407Ab02Fb0C3D0dED6f325f39C498a2ee82C6",
-      "chainId": 4243,
+      "address": "0x883277f7D623612034db92A2dC16A8BEC20a8FB5",
+      "chainId": 4242,
       "decimals": 18,
-      "logoURI": "/images/coins/0xD4d407Ab02Fb0C3D0dED6f325f39C498a2ee82C6.png"
+      "logoURI": "/images/coins/0x883277f7D623612034db92A2dC16A8BEC20a8FB5.png"
+    },
+    {
+      "name": "ORBITEX",
+      "symbol": "ORBITEX",
+      "address": "0x613d19fd91A62513e16Ecc1c0A4bFb16480bd2Bb",
+      "chainId": 4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0x613d19fd91A62513e16Ecc1c0A4bFb16480bd2Bb.png"
+    },
+    {
+      "name": "USDT",
+      "symbol": "USDT",
+      "address": "0x69F6c3e18028012Fbad46A9e940889daF6b4241D",
+      "chainId": 4242,
+      "decimals": 18,
+      "logoURI": "/images/coins/0x69F6c3e18028012Fbad46A9e940889daF6b4241D.png"
     }
   ]
 }
