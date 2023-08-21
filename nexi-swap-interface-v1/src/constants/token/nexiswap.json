@@ -71,8 +71,16 @@
       "symbol": "USDT",
       "address": "0x69F6c3e18028012Fbad46A9e940889daF6b4241D",
       "chainId": 4242,
-      "decimals": 18,
+      "decimals": 6,
       "logoURI": "/images/coins/0x69F6c3e18028012Fbad46A9e940889daF6b4241D.png"
+    },
+    {
+      "name": "SUSTAIN",
+      "symbol": "SUST",
+      "address": "0x040a129440e4d98fABaD86C8A5D291693636c850",
+      "chainId": 4242,
+      "decimals": 6,
+      "logoURI": "/images/coins/0x040a129440e4d98fABaD86C8A5D291693636c850.png"
     }
   ]
 }
