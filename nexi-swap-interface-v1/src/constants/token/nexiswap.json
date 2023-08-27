@@ -79,7 +79,7 @@
       "symbol": "SUST",
       "address": "0x040a129440e4d98fABaD86C8A5D291693636c850",
       "chainId": 4242,
-      "decimals": 6,
+      "decimals": 18,
       "logoURI": "/images/coins/0x040a129440e4d98fABaD86C8A5D291693636c850.png"
     }
   ]
