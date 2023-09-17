@@ -13,10 +13,10 @@
     {
       "name": "CashUSD",
       "symbol": "CASHUSD",
-      "address": "0x30199Be78D0A2A885b3E03f7D5B08DE2ad251648",
+      "address": "0x40Aa6A2463fBAabEA6DB995aaB604C2393cbc37D",
       "chainId":4242,
       "decimals": 18,
-      "logoURI": "/images/coins/0x30199Be78D0A2A885b3E03f7D5B08DE2ad251648.png"
+      "logoURI": "/images/coins/0x40Aa6A2463fBAabEA6DB995aaB604C2393cbc37D.png"
     },
     {
       "name": "AIGAME",

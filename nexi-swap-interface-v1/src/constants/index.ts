@@ -7,7 +7,7 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const CASHUSD = new Token(ChainId.MAINNET, '0x30199Be78D0A2A885b3E03f7D5B08DE2ad251648', 18, 'CASHUSD', 'Cash USD')
+export const CASHUSD = new Token(ChainId.MAINNET, '0x40Aa6A2463fBAabEA6DB995aaB604C2393cbc37D', 18, 'CASHUSD', 'Cash USD')
 export const WNEXI = new Token(ChainId.MAINNET, '0xEC3ceC066E5b2331fCD0Eb7eE5A9B17F617A6efb', 18, 'WNEXI', 'Wrapped NEXI')
 export const ORBITEX = new Token(ChainId.MAINNET, '0x613d19fd91A62513e16Ecc1c0A4bFb16480bd2Bb', 18, 'ORBITEX', 'Orbitex')
 export const USDT = new Token(ChainId.MAINNET, '0x69F6c3e18028012Fbad46A9e940889daF6b4241D', 18, 'USDT', 'Tether USD')
