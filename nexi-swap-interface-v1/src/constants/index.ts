@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@nexiswap/sdk'
 
-export const ROUTER_ADDRESS = '0xeef57E3356ef56B6b79F7449171DE0394fFA6d55'
+export const ROUTER_ADDRESS = '0x079d06da5415A896025999d4079d4188AC02E9C8'
 
 // a list of tokens by chain
 type ChainTokenList = {
